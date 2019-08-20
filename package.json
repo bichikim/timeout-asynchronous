@@ -1,7 +1,7 @@
 {
-  "name": "await-timeout",
+  "name": "timeout-asynchronous",
   "version": "0.0.1",
-  "description": "returning promise timeout",
+  "description": "timeout-asynchronous",
   "main": "dist/amd/index.js",
   "module": "dist/esm/index.js",
   "types": "declarations/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bichikim/await-timeout.git"
+    "url": "git+https://github.com/bichikim/timeout-asynchronous.git"
   },
   "keywords": [
     "async",
@@ -28,9 +28,9 @@
   "author": "bichi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bichikim/await-timeout/issues"
+    "url": "https://github.com/bichikim/timeout-asynchronous/issues"
   },
-  "homepage": "https://github.com/bichikim/await-timeout#readme",
+  "homepage": "https://github.com/bichikim/timeout-asynchronous#readme",
   "dependencies": {
     "lodash": "^4.17.11"
   },
