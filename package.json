@@ -2,7 +2,9 @@
   "name": "await-timeout",
   "version": "0.0.1",
   "description": "returning promise timeout",
-  "main": "dist/index.js",
+  "main": "dist/amd/index.js",
+  "module": "dist/esm/index.js",
+  "types": "declarations/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.amd.json",
     "build:esm": "tsc -p tsconfig.esm.json",
