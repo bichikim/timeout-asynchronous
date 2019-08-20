@@ -1,6 +1,6 @@
 {
   "name": "timeout-asynchronous",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "timeout-asynchronous",
   "main": "dist/amd/index.js",
   "module": "dist/esm/index.js",
