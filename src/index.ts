@@ -1,8 +1,8 @@
-export default (
+export default <T = any>(
   time: number,
-  callback?: (...args: any[]) => any,
+  callback?: (...args: any[]) => T,
   payload: any[] = [],
-): Promise<void> => {
+): Promise<T> => {
   return new Promise(function (resolve, reject) {
     setTimeout(() => {
       resolve(callback && callback(...payload))

@@ -1,2 +1,2 @@
-declare const _default: (time: number, callback?: ((...args: any[]) => any) | undefined, payload?: any[]) => Promise<void>;
+declare const _default: <T = any>(time: number, callback?: ((...args: any[]) => T) | undefined, payload?: any[]) => Promise<T>;
 export default _default;
